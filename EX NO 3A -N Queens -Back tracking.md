@@ -20,15 +20,15 @@ If there is no solution to the problem  print  "Solution does not exist"
 
 ## Algorithm
 
-1.Start and read the value of N (chessboard size).
+1. Start and read the value of N (chessboard size).
 
-2.Place queens column by column using recursion.
+2. Place queens column by column using recursion.
 
-3.Check if the current position is safe (no queen in row, upper-left, or lower-left diagonal).
+3. Check if the current position is safe (no queen in row, upper-left, or lower-left diagonal).
 
-4.If safe, place the queen and recursively place the rest; if not, backtrack.
+4. If safe, place the queen and recursively place the rest; if not, backtrack.
 
-5.Print the board if all queens are placed, else display “No solution exists.”   
+5. Print the board if all queens are placed, else display “No solution exists.”   
 
 ## Program:
 
